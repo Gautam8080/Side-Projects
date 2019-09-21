@@ -20,7 +20,7 @@ While $i < ($answer*4)
 	$pass = FileReadLine($file, $i+3)
 	ConsoleWrite($line & @CRLF)
 	If @error Then ExitLoop ;
-	ShellExecute ("C:\Users\Gautam\Desktop\CS\TOR\Tor Browser\Browser\firefox", "https://app.reviewr.com/s1/pitch?subid=4474895&evtid=4281505")
+	ShellExecute ("C:\Users\Gautam\Desktop\CS\TOR\Tor Browser\Browser\firefox", "{WEBADDRESS OF TARGET PAGE}")
 	Sleep(Random(20000, 25000, 1))
 	MouseClick("left", 850, 250) ; click for login
 	;sleep(3000)
